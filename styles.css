@@ -1,0 +1,37 @@
+body{
+    background-color:#2C3333!important;
+    font-family: 'Rubik Iso', cursive !important;
+    font-family: 'Varela Round', sans-serif !important;
+}
+h1,h2,p,button{
+    color: #CBE4DE !important;
+}
+header{
+    text-align: center;
+    padding: 5px;
+}
+.dice{
+    background-color:#0E8388;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    padding: 20px;
+    display:grid;
+    grid-template:1fr 1fr 1fr/1fr 1fr 1fr ;
+}
+.dice>div{
+    padding:10px;
+}
+.dice>div>div{
+    background-color:#CBE4DE;
+    width:4rem;
+    height:4rem;
+    border-radius: 50%;
+    visibility: hidden;
+}
+button{
+    background-color:#2E4F4F;
+}
+.visi{
+    visibility: visible !important;
+}
